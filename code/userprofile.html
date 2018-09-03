@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Sign Up</title>
+    <title>Profile</title>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
@@ -33,7 +33,6 @@
 
     </nav>
 
-    <p></p>
     <div class="container">
       <div id="nameplace">
         <p id="nameplaceholder">Name<!--PLACEHOLDER --></p>
@@ -41,27 +40,9 @@
       <div class="buttonHolder">
       <button type="change-avatar" class="btn btn-light">Change avatar</button>
     </div>
-      <div class="jumbotron">
-        <h1 class="display-4">Sign Up</h1>
-        <p class="lead">Sign up to MIMIZ with your email<p>
+      <div class="avatar">
+        <img src="res/demo_logo.png" align="middle">
       </div>
-
-      <form>
-        <div class="form-group">
-          <label class="labs" for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-      </div>
-        <div class="form-group">
-          <label class="labs" for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">I agree to the Terms of Service</label>
-        </div>
-        <button type="submit" class="btn btn-light">Submit</button>
-      </form>
-
     </div>
 
     <form class="" action="index.html" method="post">
@@ -72,7 +53,9 @@
   #nameplaceholder {
     text-align: center;
   }
-
+  img{
+  position: absolute;
+  }
   .buttonHolder{ text-align: center; }
 
 </style>
