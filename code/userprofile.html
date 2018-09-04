@@ -37,11 +37,8 @@
       <div id="nameplace">
         <p id="nameplaceholder">Name<!--PLACEHOLDER --></p>
       </div>
-      <div class="buttonHolder">
-      <button type="change-avatar" class="btn btn-light">Change avatar</button>
-    </div>
       <div class="avatar">
-        <img id="img1" src="res/avatar_placeholder.png" style="width:100px; height:100px" align="middle">
+        <img id="img1" src="res/avatar_placeholder.png" data-toggle="tooltip" data-placement="bottom" title="Change avatar" style="width:100px; height:100px" align="middle">
       </div>
     </div>
     <div class="container">
@@ -57,6 +54,12 @@
         <!--PLACEHOLDER -->
       </div>
     </div>
+
+    <script>
+      $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
 
 <style media="screen">
   #nameplaceholder {
